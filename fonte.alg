@@ -23,7 +23,7 @@ inicio
 	C<-5.0;
 	escreva "\nB=\n";
 	escreva D;
-	escreva "\n;
+	escreva "\n";
 	escreva C;
 	escreva "\n";
 	escreva A;
