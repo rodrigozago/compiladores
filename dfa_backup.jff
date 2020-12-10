@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="0">
+			<x>319.0</x>
+			<y>133.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="1">
+			<x>403.0</x>
+			<y>135.0</y>
+			<final/>
+		</state>
+		<state id="2" name="2">
+			<x>493.0</x>
+			<y>134.0</y>
+		</state>
+		<state id="3" name="3">
+			<x>588.0</x>
+			<y>133.0</y>
+			<final/>
+		</state>
+		<state id="4" name="4">
+			<x>680.0</x>
+			<y>133.0</y>
+		</state>
+		<state id="5" name="5">
+			<x>785.0</x>
+			<y>136.0</y>
+		</state>
+		<state id="6" name="6">
+			<x>903.0</x>
+			<y>133.0</y>
+			<final/>
+		</state>
+		<state id="7" name="7">
+			<x>206.0</x>
+			<y>244.0</y>
+		</state>
+		<state id="8" name="8">
+			<x>133.0</x>
+			<y>298.0</y>
+			<final/>
+		</state>
+		<state id="9" name="9">
+			<x>236.0</x>
+			<y>54.0</y>
+			<final/>
+		</state>
+		<state id="10" name="10">
+			<x>172.0</x>
+			<y>108.0</y>
+		</state>
+		<state id="11" name="11">
+			<x>149.0</x>
+			<y>176.0</y>
+			<final/>
+		</state>
+		<state id="12" name="12">
+			<x>386.0</x>
+			<y>-4.0</y>
+			<final/>
+		</state>
+		<state id="13" name="13">
+			<x>643.0</x>
+			<y>263.0</y>
+			<final/>
+		</state>
+		<state id="14" name="14">
+			<x>787.0</x>
+			<y>268.0</y>
+			<final/>
+		</state>
+		<state id="15" name="15">
+			<x>631.0</x>
+			<y>331.0</y>
+			<final/>
+		</state>
+		<state id="16" name="16">
+			<x>794.0</x>
+			<y>318.0</y>
+			<final/>
+		</state>
+		<state id="17" name="17">
+			<x>752.0</x>
+			<y>361.0</y>
+			<final/>
+		</state>
+		<state id="18" name="18">
+			<x>443.0</x>
+			<y>472.0</y>
+			<final/>
+		</state>
+		<state id="19" name="19">
+			<x>217.0</x>
+			<y>307.0</y>
+			<final/>
+		</state>
+		<state id="20" name="20">
+			<x>271.0</x>
+			<y>376.0</y>
+			<final/>
+		</state>
+		<state id="21" name="21">
+			<x>335.0</x>
+			<y>472.0</y>
+			<final/>
+		</state>
+		<state id="22" name="22">
+			<x>564.0</x>
+			<y>426.0</y>
+			<final/>
+		</state>
+		<state id="23" name="q23">
+			<x>524.0</x>
+			<y>-13.0</y>
+			<label>erro</label>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>7</from>
+			<to>8</to>
+			<read>"</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<controlx>585</controlx>
+			<controly>40</controly>
+			<read>D</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>10</to>
+			<read>{</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>+, -</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>D</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>6</to>
+			<read>D</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>10</to>
+			<read>[^}]</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>E, e</read>
+		</transition>
+		<transition>
+			<from>9</from>
+			<to>9</to>
+			<read>L, _, D</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>15</to>
+			<read>&lt;</read>
+		</transition>
+		<transition>
+			<from>13</from>
+			<to>14</to>
+			<read>=</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>20</to>
+			<read>(</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>12</to>
+			<read>EOF</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>19</to>
+			<read>+, -, *, /</read>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>17</to>
+			<read>-</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>21</to>
+			<read>)</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>9</to>
+			<read>L</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>13</to>
+			<read>&gt;</read>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>14</to>
+			<read>=</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>18</to>
+			<read>=</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>6</to>
+			<controlx>813</controlx>
+			<controly>217</controly>
+			<read>D</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>\ . </read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>6</to>
+			<read>D</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>4</to>
+			<controlx>537</controlx>
+			<controly>204</controly>
+			<read>E,e</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>3</to>
+			<read>D</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>22</to>
+			<read>;</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>7</to>
+			<read>"</read>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>11</to>
+			<read>}</read>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>7</to>
+			<controlx>187</controlx>
+			<controly>147</controly>
+			<read>[^"]</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>23</to>
+			<read>(tudo que não estiver no alfabeto)</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<controlx>289</controlx>
+			<controly>55</controly>
+			<read>\n, (espaço), tab</read>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>16</to>
+			<read>&gt;</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>D</read>
+		</transition>
+	</automaton>
+</structure>
